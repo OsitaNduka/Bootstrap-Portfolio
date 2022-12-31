@@ -1,4 +1,4 @@
-{
+*{
     box-sizing: border-box;
   }
   
@@ -56,13 +56,13 @@
     line-height: 1;
   }
   
-  .nav {
+  .main-nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   
-  .nav a {
+  .main-nav a {
     text-decoration: none;
     padding: 5px 10px;
     color: var(--secondary);
@@ -75,7 +75,7 @@
     font-size: 1.4rem;
   }
   
-  .nav a:hover {
+  .main-nav a:hover {
     background-size: 100% 100%;
     color: var(--primary);
   }
@@ -159,7 +159,7 @@
     /* justify-content: space-between; */
   }
 
-  .flex-item {
+  nav-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
