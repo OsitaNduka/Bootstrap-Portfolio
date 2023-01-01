@@ -136,10 +136,9 @@
   
   .page-section > h2 {
     flex: 0 0 20%;
-    text-align: right;
+    text-align: left;
     padding-right: 15px;
     border-right: 4px solid var(--primary);
-    font-size: 4vw;
     line-height: 1.1;
   }
   
