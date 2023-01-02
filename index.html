@@ -12,39 +12,49 @@
   </head>
   <body>
 
-    
-    <nav id="main-nav" class="navbar navbar-expand-md navbar-light" style="background-image: url(../Bootstrap-Portfolio/images/02-portfolio-2.jpg);">
+    <!-- main logo / nav -->
+  <header>
+    <nav id="main-nav" class="navbar navbar-expand-md navbar-light" >
         <div class="container">
             <div>
-                <a href="#home" class="navbar-brand">
-                  <img src="../Bootstrap-Portfolio/images/0(3)1.jpg" width="200" height="200" class="rounded-circle" alt="profile-image">
-                  <span class="h4 fw-bold">Digital Consultant</span>
-                  <h1>Osita Nduka</h1>
-                </a>
+                
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ms-auto nav justify-content-end">
                         <li class="nav-item">
-                          <a class="nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
+                          <a class="nav-link active" href="#about-me">About Me <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Work</a>
+                          <a class="nav-link" href="#work">Work</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contact Me</a>
+                          <a class="nav-link" href="#contact-me">Contact Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Resume</a>
+                          <a class="nav-link" href="images/CV Ossy April 2019.doc">Resume</a>
                         </li>
                       </ul>
                     </div>
             </div>
         </div>
     </nav>
-  
-    
+    <!--Navbar-->
+
+    <!--Jumbotron-->
+  <div class="p-0 text-center sm-image" style="background-image: url(../Bootstrap-Portfolio/images/02-portfolio-2.jpg);">
+    <div class="d-flex justify-content-left align-items-left h-100">
+      <div class="text-white">
+        <h1 class="mb-3">Osita Nduka</h1>
+        <img src="../Bootstrap-Portfolio/images/0(3)1.jpg" width="200" height="200" class="rounded-circle" alt="profile-image">
+        <h4 class="mb-3">Digital Consultant</h4>
+      </div>
+    </div>
+  </div>
+    <!--Jumbotron--> 
+
+  </header> 
   
   
   
@@ -71,7 +81,9 @@
           I'm currently learning Front End Web development so that I would be able to proffer solutions to website security, content and marketing strategy, troubleshooting and performing research. I'm looking forward to collaborate with people all over the planet.</p>
        </div>
       </div>
-    </section> 
+    </section>
+    <section class="Work">
+       <h4>Work</h4>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col mb-4">
         <div class="card">
@@ -114,7 +126,31 @@
         </div>
       </div>
     </div>
-
+  </section> 
+ <!--Skills-section-->
+ <section class="Skills-section" id="skills">
+  <p class="text">The lists of skills I expect to learn from Bootcamp</p>
+ <h4>Front-End Foundations</h4>
+ <ul>
+  <li>Fundamental concepts of web development</li>
+  <li>Front-End Technologies</li>
+  <li>Command-line Fundamentals</li>
+  <li>User experience design APIs</li>
+  <li>Git and GitHub</li>
+  <li>HTML, CSS and JavaScript</li>
+  <li>Third-party APIs (jQuery and Bootstrap)</li>
+  <li>Server-side APIs, AJAX, JSON, Agile software development methodology</li>
+ </ul>
+<h4>Front-End Frameworks</h4>
+<ul>
+  <li>Node.js</li>
+  <li>Test-driven development</li>
+  <li>Object-oriented programming (OOP)</li>
+  <li>React</li>
+  <li>Behaviour-driven development deployment</li>
+  <li>How to create a professional project portfolio</li>
+</ul>
+ </section>
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
