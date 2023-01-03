@@ -158,7 +158,7 @@
     /* justify-content: space-between; */
   }
 
-  nav-item {
+  .main-nav {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
@@ -227,30 +227,7 @@
     color: var(--secondary);
   }
   
-  /* portfolio project images */
-  .Css-Cheatsheet {
-    background-image: url("../week2css-challenge/Css-screenshort.PNG");
-  }
-  
-  .Responsive-Css {
-    background-image: url("../week2css-challenge/Bio-image.PNG");
-  }
-  
-  .Front-End-Web {
-    background-image: url("../week2css-challenge/02-portfolio-2.jpg");
-  }
-  
-  .Css-Grid {
-    background-image: url("../week2css-challenge/Css-Grid\ Layout.PNG");
-  }
-  
-  .Pre-work {
-    width: 90%;
-    background-image: url("../week2css-challenge/pre-work.PNG");
-  }
-  
-  /* end portfolio project images */
-  
+    
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
