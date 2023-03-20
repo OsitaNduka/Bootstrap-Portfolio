@@ -33,7 +33,7 @@ to create a professional project portfolio.
 As you click on the more details button it will take you to the section where you can view the full page. The resume button will download
 a copy of my curricullum vitea (CV). 
 
-![App Screenshort](../images/Bootstrap%20screenshort.PNG)
+![App Screenshort](./images/Bootstrap%20screenshort.PNG)
 
 ## Credits
 N/A
